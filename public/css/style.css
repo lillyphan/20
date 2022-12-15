@@ -53,3 +53,6 @@ p {
 .nav a:hover {
   color: white;
 }
+.nav a:active {
+  color: white;
+}
