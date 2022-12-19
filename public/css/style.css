@@ -1,3 +1,8 @@
+@font-face {
+  font-family: sdv;
+  src:url(Stardew_Valley.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -36,17 +41,23 @@ p {
 .logo {
   display: flex;
   align-items: center;
-  color: black;
-  font-family: palatino, serif;
-  font-size: 30px
+  font-size: 50px
 }
-.nav {
+
+.logo p{
+  padding-left: 30px;
+  font-family: sdv;
+  color: #40321f;
+}
+
+.nav {  
   display: flex;
   align-items: left;
 }
 .nav a {
-  color: black;
-  font-family: andale mono, monospace;
+  color: #40321f;
+  font-family: sdv;
+  font-size: 30px;
   margin: 0px, 30px;
   padding: 40px;
 }
