@@ -16,12 +16,18 @@ body {
   background-color: #F2E7DE;
 }
 
+img {
+  margin-right: 120px;
+}
+
 h1 {
   color: black;
   font-family: sdv;
-  font-size: 50;
+  font-size: 60;
   color: #40321f;
+  margin-left: 120px;
 }
+
 p {
   color: black;
   font-size: 30;
@@ -49,7 +55,7 @@ p {
 }
 
 .logo p{
-  padding-left: 30px;
+  margin-left: 20px;
   font-family: sdv;
   color: #40321f;
 }
@@ -86,4 +92,19 @@ p {
   display: flex;
   flex-direction: column;
   align-content: space-evenly;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.req p {
+    margin-left: 120px;
+}
+
+.credits p {
+    margin-left: 120px;
 }
