@@ -18,13 +18,18 @@ body {
 
 h1 {
   color: black;
-  font-family: palatino, serif;
+  font-family: sdv;
+  font-size: 50;
+  color: #40321f;
 }
 p {
   color: black;
   font-size: 30;
   font-family: andale mono, monospace;
+  color: #40321f;
+  line-height: 2;
 }
+
 .header {
   top: 0;
   right: 0;
@@ -35,7 +40,6 @@ p {
   list-style: none;x
   background: #92C47C;
   justify-content: space-between;
-  color: black;
 }
 
 .logo {
@@ -50,7 +54,7 @@ p {
   color: #40321f;
 }
 
-.nav {  
+.nav {
   display: flex;
   align-items: left;
 }
@@ -66,4 +70,20 @@ p {
 }
 .nav a:active {
   color: white;
+}
+
+.inspiration{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.inspotext{
+  flex-basis: 40px  ;
+}
+
+.inspolink {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
 }
