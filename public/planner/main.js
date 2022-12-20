@@ -6,3 +6,12 @@ let eraseBtn = document.getElementById("erase-btn");
 let redBtn = document.getElementById("red");
 let blueBtn = document.getElementById("blue");
 let color;
+
+//event object that only holds events for mouse (potential for addition of other devices)
+let events = {
+  mouse: {
+    down: "mousedown",
+    move: "mousemove",
+    up: "mouseup",
+  },
+};
