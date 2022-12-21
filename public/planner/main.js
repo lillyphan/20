@@ -1,3 +1,10 @@
+//
+//  * main.js
+//  * Author: Lilly Phan
+//  * Created: 12/12/2022
+//  * Last edited: 12/20/2022
+//  * main.js contains the script to work the planner
+
 //initial references to value of buttons
 let board = document.querySelector(".board");
 let farmButton = document.getElementById("new-farm");
