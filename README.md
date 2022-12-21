@@ -32,6 +32,12 @@ public/planner/main.js - This file contains the script used to add functionality
 
 public/planner/css/style.css - This file contains the style sheet for the planner. The style sheet provides information about the style of HTML elements.
 
+## Future implementations
+1. Integrating the planner into public/index.html
+2. Adding visual components (flowers, trees) to the paint feature
+3. Save function
+4. Add a count for colored tiles
+5. Improve visual of webpages
 
 ## Authors
 
