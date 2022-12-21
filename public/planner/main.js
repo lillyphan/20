@@ -89,3 +89,24 @@ function find(elementId) {
     }
   });
 }
+
+//when clear button is clicked, empty the contents of the board
+clearFarmButton.addEventListener("click", () => {
+  board.innerHTML = "";
+});
+//when erase button is clicked, set erase to true
+eraseBtn.addEventListener("click", () => {
+  erase = true;
+});
+
+//when red button is clicked, set color value to red
+redBtn.addEventListener("click", () => {
+  erase = false;
+  color = "#ff0000"
+});
+
+//when red button is clicked, set color value to blue
+blueBtn.addEventListener("click", () => {
+  erase = false;
+  color = "#001aff"
+});
