@@ -1,0 +1,94 @@
+@font-face {
+  font-family: sdv;
+  src:url(Stardew_Valley.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sdv;
+}
+
+body {
+  background-color: #F2E7DE;
+}
+
+/* wrapper for main planner container */
+.wrapper {
+  background-color: #ffffff;
+  width: 150vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 40px 20px;
+  border-radius: 8px;
+}
+
+/* wrapper for the tool bar */
+.tb-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* buttons on the tool bar */
+button {
+  background-color: #32a852;
+  border: none;
+  padding: 15px;
+}
+
+.col {
+  height: 0.75em;
+  width: 0.75em;
+  border: 1px solid #ddd;
+}
+.row {
+  display: flex;
+}
+
+/* Dropdown Button */
+.drop {
+  padding: 15px;
+  border: none;
+}
+
+/* the container with all of the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* contents of dropdown */
+.items {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* buttons in the dropdown */
+.items button {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+/* buttons will change color when mouse is hovering */
+.items button:hover {background-color: #ddd;}
+
+/* show dropdown on hover */
+.dropdown:hover .items {display: block;}
+
+/* when dropdown is showing change color of button */
+.dropdown:hover .drop {background-color: #47b565;}
+
+/* buttons change color when user is hovering */
+button:hover {background-color: #47b565;}

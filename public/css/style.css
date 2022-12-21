@@ -16,15 +16,26 @@ body {
   background-color: #F2E7DE;
 }
 
+img {
+  margin-right: 120px;
+}
+
 h1 {
   color: black;
-  font-family: palatino, serif;
+  font-family: sdv;
+  font-size: 60;
+  color: #40321f;
+  margin-left: 120px;
 }
+
 p {
   color: black;
   font-size: 30;
   font-family: andale mono, monospace;
+  color: #40321f;
+  line-height: 2;
 }
+
 .header {
   top: 0;
   right: 0;
@@ -35,7 +46,6 @@ p {
   list-style: none;x
   background: #92C47C;
   justify-content: space-between;
-  color: black;
 }
 
 .logo {
@@ -45,12 +55,12 @@ p {
 }
 
 .logo p{
-  padding-left: 30px;
+  margin-left: 20px;
   font-family: sdv;
   color: #40321f;
 }
 
-.nav {  
+.nav {
   display: flex;
   align-items: left;
 }
@@ -66,4 +76,35 @@ p {
 }
 .nav a:active {
   color: white;
+}
+
+.inspiration{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.inspotext{
+  flex-basis: 40px  ;
+}
+
+.inspolink {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.req p {
+    margin-left: 120px;
+}
+
+.credits p {
+    margin-left: 120px;
 }
