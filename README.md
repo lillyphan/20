@@ -12,7 +12,8 @@ The program is currently split into two parts.
 2. To run and see the planner, open planner.html in the folder path public/planner in a browser.
 
 ## Images
-![alt text](https://github.com/lillyphan/20/blob/main/image.jpg?raw=true)
+![](https://github.com/lillyphan/20/blob/main/planner.png?raw=true)
+![](https://github.com/lillyphan/20/blob/main/web.png?raw=true)
 
 ## Authors
 
