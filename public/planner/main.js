@@ -74,3 +74,18 @@ farmButton.addEventListener("click", () => {
     board.appendChild(div);
   }
 });
+
+function find(elementId) {
+  let farmColumns = document.querySelectorAll(".col");
+  //loop through all boxes
+  farmColumns.forEach((element) => {
+    //if id matches then color
+    if (elementId == element.id) {
+      if (draw && !erase) {
+        element.style.backgroundColor = color;
+      } else if (draw && erase) {
+        element.style.backgroundColor = "transparent";
+      }
+    }
+  });
+}
