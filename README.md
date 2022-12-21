@@ -1,47 +1,24 @@
 # 20
 # SDV Farm Planner
 
-SDV Farm Planner can be used to layout Stardew Valley farms.
-
 ## Description
 
-The SDV Farm Planner is a tool that will help SDV players plan their farms conveniently. Using a grid based drawing system, players can layout different buildings, crops, and tools, and keep track of the number of items on their farm without the help of a computer in the file.
-
-
-## Getting Started
-
-### Dependencies
-
-* N/A
-
-### Installing
-
-* N/A
+The SDV Farm Planner is a tool that will help SDV players plan their farms conveniently. Using a grid based drawing system, players can layout different buildings, crops, and tools, and keep track of the number of items on their farm without the help of a farm computer in the file.
 
 ### Executing program
 
-To run and see the three main pages of the website, open the file named index.html
-To run and see the planner, open folder 20, public, and then open the file named public/planner
+The program is currently split into two parts.
+1. To run and see the three main pages of the website, open the file named index.html, about.html, or inspo.html located in the folder public in a browser.
+2. To run and see the planner, open planner.html in the folder path public/planner in a browser.
 
-```
-command to run if program contains helper info
-```
+## Images
+![alt text](https://github.com/lillyphan/20/blob/main/image.jpg?raw=true)
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Lilly Phan 
+Lilly Phan - lphan24@kentdenver.org
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
-    * Initial Release
-
-## License
-
-
-## Acknowledgments
+    * 12-20-22 Initial Release
