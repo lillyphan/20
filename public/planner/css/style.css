@@ -39,6 +39,15 @@ button {
   padding: 15px;
 }
 
+.col {
+  height: 0.75em;
+  width: 0.75em;
+  border: 1px solid #ddd;
+}
+.row {
+  display: flex;
+}
+
 /* Dropdown Button */
 .drop {
   padding: 15px;
