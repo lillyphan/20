@@ -15,6 +15,24 @@ The program is currently split into two parts.
 ![](https://github.com/lillyphan/20/blob/main/planner.png?raw=true)
 ![](https://github.com/lillyphan/20/blob/main/web.png?raw=true)
 
+## Desciption of files
+
+public/index.html - This file contains HTML information about the struture and format of the main webpage. It interacts with public/css/style.css to style HTML elements and will contain the planner located in public/planner/planner.html in the future.
+
+public/inspo.html - This file contains HTML information about the struture and format of the inspiration webpage. It interacts with public/css/style.css to style HTML elements.
+
+public/about.html - This file contains HTML information about the struture and format of the about webpage. It interacts with public/css/style.css to style HTML elements.
+
+public/css/style.css - This file contains the style sheet for the main three webpages. The style sheet provides information about the style of HTML elements.
+
+public/planner/planner.html - This file contains HTML information about the struture and format of the planner. It interacts with 
+public/planner/css/style.css to style HTML elements within the planner and will be integrated into public/index.html in the future.
+
+public/planner/main.js - This file contains the script used to add functionality to the planner. It interacts with public/planner/planner.html to script buttons and the drawing board and public/planner/css/style.css to style HTML elements that it adds to public/planner/planner.html.
+
+public/planner/css/style.css - This file contains the style sheet for the planner. The style sheet provides information about the style of HTML elements.
+
+
 ## Authors
 
 Lilly Phan - lphan24@kentdenver.org
