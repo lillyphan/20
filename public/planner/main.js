@@ -82,6 +82,7 @@ farmButton.addEventListener("click", () => {
   }
 });
 
+//loop through all boxes and when one matches the id of the element touching the mouse, color it
 function find(elementId) {
   let farmColumns = document.querySelectorAll(".col");
   //loop through all boxes
