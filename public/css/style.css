@@ -12,6 +12,13 @@
   list-style: none;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
 body,
 html{
     min-height: 100%;
@@ -27,16 +34,19 @@ h1 {
   color: black;
   font-family: sdv;
   font-size: 60;
-  color: #9e6549;
-  margin-left: 120px;
+  background-color: #FFD284;
+  color: #611A0D;
+  border: 6px solid #CF6904;
 }
 
 p {
   color: black;
   font-size: 30;
   font-family: andale mono, monospace;
+  background-color: #FFD284;
   color: #40321f;
   line-height: 2;
+  border: 6px solid #CF6904;
 }
 
 .header {
@@ -88,7 +98,8 @@ p {
 }
 
 .inspotext{
-  flex-basis: 40px  ;
+  text-align: center;
+  max-width: 45%;
 }
 
 .inspolink {
