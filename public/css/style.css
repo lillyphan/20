@@ -37,6 +37,7 @@ h1 {
   background-color: #FFD284;
   color: #611A0D;
   border: 6px solid #CF6904;
+  text-align: center;
 }
 
 p {
@@ -47,6 +48,7 @@ p {
   color: #40321f;
   line-height: 2;
   border: 6px solid #CF6904;
+  text-align: center;
 }
 
 .header {
@@ -108,17 +110,16 @@ p {
   align-content: space-evenly;
 }
 
-.about {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
+.req {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
-.req p {
-    margin-left: 120px;
-}
-
-.credits p {
-    margin-left: 120px;
+.credits {
+   display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 75%;
 }
