@@ -12,19 +12,22 @@
   list-style: none;
 }
 
-body {
-  background-color: #F2E7DE;
+body,
+html{
+    min-height: 100%;
 }
 
-img {
-  margin-right: 120px;
+body {
+  background-image:url(images/bg.png);
+  background-size: cover;
 }
+
 
 h1 {
   color: black;
   font-family: sdv;
   font-size: 60;
-  color: #40321f;
+  color: #9e6549;
   margin-left: 120px;
 }
 
@@ -43,8 +46,8 @@ p {
   display: flex;
   padding: 30px;
   align-items: center;
-  list-style: none;x
-  background: #92C47C;
+  list-style: none;
+  margin-bottom: 3cm;
   justify-content: space-between;
 }
 
