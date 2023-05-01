@@ -10,8 +10,21 @@
   font-family: sdv;
 }
 
+.header {
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 3cm;
+  justify-content: space-between;
+}
+
 body {
-  background-color: #F2E7DE;
+  background-image:url(../../css/images/bg.png);
+  background-size: cover;
 }
 
 /* wrapper for main planner container */
@@ -37,6 +50,7 @@ button {
   background-color: #32a852;
   border: none;
   padding: 15px;
+  border-radius: 10px;
 }
 
 .col {

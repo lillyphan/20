@@ -79,18 +79,13 @@ p {
   display: flex;
   align-items: left;
 }
+
 .nav a {
   color: #40321f;
   font-family: sdv;
   font-size: 30px;
   margin: 0px, 30px;
   padding: 40px;
-}
-.nav a:hover {
-  color: white;
-}
-.nav a:active {
-  color: white;
 }
 
 .inspiration{
