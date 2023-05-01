@@ -1,4 +1,3 @@
-//
 //  * main.js
 //  * Author: Lilly Phan
 //  * Created: 12/12/2022
@@ -10,9 +9,12 @@ let board = document.querySelector(".board");
 let farmButton = document.getElementById("new-farm");
 let clearFarmButton = document.getElementById("clear-farm");
 let eraseBtn = document.getElementById("erase-btn");
-let redBtn = document.getElementById("red");
-let blueBtn = document.getElementById("blue");
+let pathBtn = document.getElementById("path");
+let flowerBtn = document.getElementById("flower");
+let fruitBtn = document.getElementById("fruit");
+let fenceBtn = document.getElementById("fence");
 let color;
+let img;
 
 //events object, only contains events for mouse right now but has the potential for other devices..
 let events = {
@@ -89,7 +91,8 @@ function find(elementId) {
     //if id matches then color
     if (elementId == element.id) {
       if (draw && !erase) {
-        element.style.backgroundColor = color;
+//        element.style.backgroundColor = color;
+          element.style.backgroundImage = img;
       } else if (draw && erase) {
         element.style.backgroundColor = "transparent";
       }
@@ -107,13 +110,23 @@ eraseBtn.addEventListener("click", () => {
 });
 
 //when red button is clicked, set color value to red
-redBtn.addEventListener("click", () => {
+pathBtn.addEventListener("click", () => {
   erase = false;
-  color = "#ff0000"
+  img = "url('css/pathsmall.png')";
 });
 
-//when red button is clicked, set color value to blue
-blueBtn.addEventListener("click", () => {
+//when blue button is clicked, set color value to blue
+flowerBtn.addEventListener("click", () => {
   erase = false;
-  color = "#001aff"
+  img = "url('css/tulip.png')"
+});
+
+fenceBtn.addEventListener("click", () => {
+  erase = false;
+  img = "url('css/fence.png')"
+});
+
+fruitBtn.addEventListener("click", () => {
+  erase = false;
+  img = "url('css/melon.png')"
 });

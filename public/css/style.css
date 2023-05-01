@@ -20,28 +20,43 @@
   list-style: none;
 }
 
-body {
-  background-color: #F2E7DE;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
-img {
-  margin-right: 120px;
+body,
+html{
+    min-height: 100%;
 }
+
+body {
+  background-image:url(images/bg.png);
+  background-size: cover;
+}
+
 
 h1 {
   color: black;
   font-family: sdv;
   font-size: 60;
-  color: #40321f;
-  margin-left: 120px;
+  background-color: #FFD284;
+  color: #611A0D;
+  border: 6px solid #CF6904;
+  text-align: center;
 }
 
 p {
   color: black;
   font-size: 30;
   font-family: andale mono, monospace;
+  background-color: #FFD284;
   color: #40321f;
   line-height: 2;
+  border: 6px solid #CF6904;
+  text-align: center;
 }
 
 .header {
@@ -51,8 +66,8 @@ p {
   display: flex;
   padding: 30px;
   align-items: center;
-  list-style: none;x
-  background: #92C47C;
+  list-style: none;
+  margin-bottom: 3cm;
   justify-content: space-between;
 }
 
@@ -72,18 +87,13 @@ p {
   display: flex;
   align-items: left;
 }
+
 .nav a {
   color: #40321f;
   font-family: sdv;
   font-size: 30px;
   margin: 0px, 30px;
   padding: 40px;
-}
-.nav a:hover {
-  color: white;
-}
-.nav a:active {
-  color: white;
 }
 
 .inspiration{
@@ -93,7 +103,8 @@ p {
 }
 
 .inspotext{
-  flex-basis: 40px  ;
+  text-align: center;
+  max-width: 45%;
 }
 
 .inspolink {
@@ -102,17 +113,16 @@ p {
   align-content: space-evenly;
 }
 
-.about {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
+.req {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
-.req p {
-    margin-left: 120px;
-}
-
-.credits p {
-    margin-left: 120px;
+.credits {
+   display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 75%;
 }
