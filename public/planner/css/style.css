@@ -29,7 +29,7 @@ body {
 
 /* wrapper for main planner container */
 .wrapper {
-  background-color: #ffffff;
+  background-color: #F5AA00;
   width: 150vmin;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -56,7 +56,7 @@ button {
 .col {
   height: 0.75em;
   width: 0.75em;
-  border: 1px solid #ddd;
+  border: 0.5px solid #ddd;
 }
 .row {
   display: flex;
