@@ -47,3 +47,6 @@ Lilly Phan - lphan24@kentdenver.org
 
 * 0.1
     * 12-20-22 Initial Release
+* 0.2
+    * 05-01-23 Visual Redesign
+    
